@@ -1,0 +1,100 @@
+/* Full screen layout with sidebar for Create Account page */
+.create-account-fullscreen {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #1d1d1d; /* Dark background for full screen */
+}
+
+/* Blue sidebar styling for Create Account page */
+.create-account-side-bar {
+  width: 40%; /* This is the width of the blue sidebar */
+  background-color: #101e33; /* Dark blue background color */
+  height: 100%; /* Full height */
+  color: #ffffff; /* Light text color for dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account-side-bar img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+}
+
+/* Container for the create account form */
+.create-account-container {
+  width: 60%; /* Remaining width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* White box container for the create account elements */
+.signup-container {
+  background-color: #222831; /* Darker shade for the container */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  width: 100%;
+  max-width: 400px; /* Maximum width of the form */
+  text-align: center;
+  color: #eeeeee; /* Light text color for readability */
+}
+
+/* Form and input styling for create account page */
+.signup-container h2 {
+  margin-bottom: 20px;
+}
+
+.signup-form .input-group {
+  margin-bottom: 20px;
+}
+
+.signup-form .input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form .input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #393e46; /* Dark border for inputs */
+  background-color: #393e46; /* Dark background for inputs */
+  border-radius: 4px;
+  color: #eeeeee; /* Light text color for input */
+}
+
+/* Button styling for create account page */
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #101e33; /* Teal color for the button */
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #007c7a; /* Darker teal for button hover */
+}
+
+/* Link to sign in page from create account page */
+.signin-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-button {
+  background: none;
+  border: none;
+  color: #00adb5; /* Teal color for text button */
+  cursor: pointer;
+}
+
+.text-button:hover {
+  text-decoration: underline;
+}
